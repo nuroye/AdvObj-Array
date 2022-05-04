@@ -91,7 +91,7 @@ object1.a = 4; //a=4
 
 class Animal {
       constructor(name, type, color,){
-        console.log('Player', this);
+        console.log('Animal', this);
         this.name = Malami;
         this.type = Aberdeen-Angus;
         color = Black
