@@ -72,7 +72,7 @@ const array = [
   // The value of "i" is "0,1,2,3,4,5"
    
   //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
-
+ 
   //Evaluate these:
 //#1
 [2] === [2] // false
@@ -92,9 +92,9 @@ object1.a = 4; //a=4
 class Animal {
       constructor(name, type, color,){
         console.log('Animal', this);
-        this.name = Malami;
-        this.type = Aberdeen-Angus;
-        color = Black
+        this.name = name;
+        this.type = type;
+        this.color = color;
         
       }
       sound(){
@@ -114,5 +114,5 @@ class Mammal extends Animal {
   }
 }
 
-// const Mammal= new Mammal('Buhari', 'Hereford', 'Brown');
-// const Mammal= new Mammal('Lai', 'Galloway', 'White');
+ const Mammal1= new Mammal('Buhari', 'Hereford', 'Brown');
+ const Mammal2= new Mammal('Lai', 'Galloway', 'White');
